@@ -1,5 +1,4 @@
 # ballTracker
-
 This project is created to track a ball in one colour using OpenCV. The colour of the ball can be calibrated based on your requirements. The code gives you 3 values that are proportional to the 3d-coordinates in space based on your camera.
 
 ## Requirements
