@@ -6,24 +6,18 @@ from functions import *
 import sys
 import time
 
-# Cameras
-webcam = 0
-phone = 1
+print('\nballTracker')
+print('Press and hold "q" to quit he program at any time...\n\n')
 
 # Selected Camera
 if len(sys.argv) == 1:
+	selectedCamera = 0
 	print('\nUsing the default webcam...')
-	time.sleep(1)
-	selectedCamera = webcam
 else:
-	if sys.argv[1] == 'w':
-		print('\nUsing Webcam')
-		time.sleep(1)
-		selectedCamera = webcam
-	elif sys.argv[1] == 'p':
-		print('\nUsing Phone')
-		time.sleep(1)
-		selectedCamera = phone
+	selectedCamera = int(sys.argv[1])
+	print('\n Using camera:', selectedCamera)
+
+time.sleep(1)
 
 # Modes of operation
 colorCalibrationMode = 1
