@@ -7,7 +7,7 @@ import sys
 import time
 
 print('\nballTracker')
-print('Press and hold "q" to quit he program at any time...\n\n')
+print('Press and hold "q" to quit he program at any time...\n')
 
 # Selected Camera
 if len(sys.argv) == 1:

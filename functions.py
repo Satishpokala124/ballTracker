@@ -118,6 +118,9 @@ def distMeasurement(camera, l_bound, u_bound):
 			"Distance: "+str(round(dist, 4)), (40, 100), 
 			font, fontScale, fontColor, thickness
 		)
+		cv2.putText(frame, "(" + str(center[0]) + ", " + str(center[1]) + ")",
+			center, font, fontScale-0.2, fontColor, thickness
+		)
 	else:
 		cv2.putText(screen, 
 			"Distance: "+"No Object", (40, 100), 
