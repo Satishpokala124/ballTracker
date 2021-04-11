@@ -118,7 +118,8 @@ def distMeasurement(camera, l_bound, u_bound):
 			"Distance: "+str(round(dist, 4)), (40, 100), 
 			font, fontScale, fontColor, thickness
 		)
-		cv2.putText(frame, "(" + str(center[0]) + ", " + str(center[1]) + ")",
+		cv2.putText(frame, 
+			"(" + str(center[0]) + ", " + str(center[1]) + ", " + str(int(dist)) + ")",
 			center, font, fontScale-0.2, fontColor, thickness
 		)
 	else:
