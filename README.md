@@ -3,7 +3,7 @@ This project is created to track a ball in one colour using OpenCV. The colour o
 
 ## Requirements
  - Python 3.8 or greater installed
- - pip 20.0.2 or greater installed
+ - pip 20.0 or greater installed
  - pipenv installed
 
 ## How to use
