@@ -9,7 +9,7 @@ import time
 print('\nballTracker')
 print('Press and hold "q" to quit he program at any time...\n')
 
-# Selected Camera
+# Selecting Camera
 if len(sys.argv) == 1:
 	selectedCamera = 0
 	print('\nUsing the default webcam...')
