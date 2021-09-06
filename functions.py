@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 import imutils
 
+# Just for fun!!!
+
 def colorCalibration(camera):
 	ret, frame = camera.read()
 	# Converting frame from 'BGR' to 'HSV'
